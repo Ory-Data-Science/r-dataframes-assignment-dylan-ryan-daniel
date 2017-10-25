@@ -1,0 +1,5 @@
+For this instance, our data is so small, I can simply calculate the expected values by hand and compare them to the output.
+That being said, doing the same to a small section of a much larger file should be just as effective.
+The length of the file is of little issue, you can simply sample values and run them through the code and 
+making sure the output is accurate.  
+If it works with one section of the data file, it ought to work with averything else, organized accordingly, of course.
