@@ -23,8 +23,8 @@ print(survey_data [ , 1:2]) # This line will print out the first two
 
 filtered_data <- (survey_data[ , 5] > 5)
 # Filtered_data only keeps the rows where the height is more than 5
-# print(filtered_data) This is just to test the value
-print(survey_data[filtered_data , ]) #By assigning a new variable you 
+# print(filtered_data) # This is just to test the value
+print(survey_data[filtered_data , ])  #By assigning a new variable you 
 # are able to print out only the filtered rows properly.
 
 survey_data$volume <- (survey_data$length * survey_data$width * survey_data$height)
